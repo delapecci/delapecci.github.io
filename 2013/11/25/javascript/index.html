@@ -19,7 +19,7 @@
 <meta name="author" content="ChrisL" />
   <meta name="description" content="原文地址：http://www.infoworld.com/d/application-development/6-secrets-of-j" />
 
-  <meta name="keywords" content="区块链, 分布式, Node.js, Elixir, DevOps, ChatOps, 技术论文, 技术翻译, 技术哲学" />
+  <meta name="keywords" content="诗歌, Java, Node.js, Elixir, 区块链, 分布式, 技术论文, 技术, 哲学" />
 
 
 
@@ -61,7 +61,7 @@
 
 <meta itemprop="datePublished" content="2013-11-25T10:14:33&#43;08:00" />
 <meta itemprop="dateModified" content="2013-11-25T10:14:33&#43;08:00" />
-<meta itemprop="wordCount" content="2058">
+<meta itemprop="wordCount" content="2019">
 
 
 
@@ -83,7 +83,7 @@
 <body>
   <div id="mobile-navbar" class="mobile-navbar">
   <div class="mobile-header-logo">
-    <a href="/" class="logo">咖啡色的硬核</a>
+    <a href="/" class="logo">咖啡色的硬度</a>
   </div>
   <div class="mobile-navbar-icon">
     <span></span>
@@ -97,8 +97,10 @@
         <li class="mobile-menu-item">香浓</li>
       </a><a href="/post/">
         <li class="mobile-menu-item">回味</li>
-      </a><a href="/tags/">
+      </a><a href="/categories/">
         <li class="mobile-menu-item">品种</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">口感</li>
       </a><a href="/about/">
         <li class="mobile-menu-item">Me</li>
       </a>
@@ -107,7 +109,7 @@
   <div class="container" id="mobile-panel">
     <header id="header" class="header">
         <div class="logo-wrapper">
-  <a href="/" class="logo">咖啡色的硬核</a>
+  <a href="/" class="logo">咖啡色的硬度</a>
 </div>
 
 <nav class="site-navbar">
@@ -117,7 +119,9 @@
       </li><li class="menu-item">
         <a class="menu-item-link" href="/post/">回味</a>
       </li><li class="menu-item">
-        <a class="menu-item-link" href="/tags/">品种</a>
+        <a class="menu-item-link" href="/categories/">品种</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">口感</a>
       </li><li class="menu-item">
         <a class="menu-item-link" href="/about/">Me</a>
       </li>
@@ -137,7 +141,7 @@
         <span class="post-time"> 2013-11-25 </span>
         <div class="post-category">
             
-              <a href="/categories/work/"> work </a>
+              <a href="/categories/javascript/"> Javascript </a>
             
           </div>
         
@@ -186,44 +190,42 @@
 <p>JavaScript的闭包允许一个函数访问它的父域。这是一个很容易让开发者迷惑的概念。在我学习JavaScript时，我花了大量时间去调试那些没有缩进的闭包代码。当我从错误中学习之后，我觉得闭包非常酷，所以我又白白花了更多的时间尝试使用闭包来解决自己的问题。<br />
 最终我认识到：当你需要返回一个内部函数 (参看No2. 高阶函数)，而且需要在这个函数里访问父域的时候，闭包就非常有用。这种方法为变量使用创造了一种完全私有或者受保护的环境。</p>
 
-<p>{% highlight javascript linenos %}
-// <strong>Closures</strong></p>
+<pre><code class="language-js">// **Closures**
 
-<p>function makeThreeTimer() {</p>
+function makeThreeTimer() {
 
-<pre><code>var count = 0;
+    var count = 0;
 
-return function() {
+    return function() {
 
-    if (count &lt; 3) {
+        if (count &lt; 3) {
 
-        console.log('doing work');
+            console.log('doing work');
 
-        count++;
+            count++;
 
-    } else {
+        } else {
 
-        throw new Error('No more work');
+            throw new Error('No more work');
+
+        }
 
     }
 
 }
+
+var threeTimer = makeThreeTimer();
+
+threeTimer(); // logs 'doing work' (count gets incremented)
+
+threeTimer(); // logs 'doing work' (count gets incremented)
+
+threeTimer(); // logs 'doing work' (count gets incremented)
+
+threeTimer(); // throws an error
+
+threeTimer.count; // returns undefined
 </code></pre>
-
-<p>}</p>
-
-<p>var threeTimer = makeThreeTimer();</p>
-
-<p>threeTimer(); // logs &lsquo;doing work&rsquo; (count gets incremented)</p>
-
-<p>threeTimer(); // logs &lsquo;doing work&rsquo; (count gets incremented)</p>
-
-<p>threeTimer(); // logs &lsquo;doing work&rsquo; (count gets incremented)</p>
-
-<p>threeTimer(); // throws an error</p>
-
-<p>threeTimer.count; // returns undefined
-{% endhighlight %}</p>
 
 <p>在上面的例子里，变量count在函数threeTimer被执行的时候——通过闭包函数——被使用和递增，而不能够直接通过点语法或者括号来访问。</p>
 
@@ -236,20 +238,18 @@ return function() {
 
 <p>在理解了普通的函数调用（通过括号操作符）后，就该学习如何使用call和apply。使用call/apply而不是使用括号操作符来调用函数的便利之处在于，你可以指定函数执行的上下文（也就是this的值）。在这里你会经常看到高阶函数，尤其是使用其他函数作为输入用于以后执行的情况。Function.prototype内部的bind方法就是一个典型的call/apply的例子。</p>
 
-<p>{% highlight javascript linenos %}
-// Possible implementation of bind using apply</p>
+<pre><code class="language-js">// Possible implementation of bind using apply
 
-<p>function bind(func, context) {</p>
+function bind(func, context) {
 
-<pre><code>return function() {
+    return function() {
 
-    func.apply(context, Array.prototype.slice.apply(arguments));
+        func.apply(context, Array.prototype.slice.apply(arguments));
+
+    }
 
 }
 </code></pre>
-
-<p>}
-{% endhighlight %}</p>
 
 <h3 id="no4-this是什么">No4. this是什么？</h3>
 
@@ -258,11 +258,10 @@ return function() {
 2. 问题函数是某个对象的方法，这时this的值就是这个对象
 规则2在相关函数被异步调用的时候应该被忽视，例如一个点击事件处理或者setTimeout。例如：</p>
 
-<p>{% highlight javascript %}
-Person.getName(); // &lsquo;this&rsquo; points to Person</p>
+<pre><code class="language-js">Person.getName(); // 'this' points to Person
 
-<p>setTimeout(Person.getName, 1000); // &lsquo;this&rsquo; points to the global object
-{% endhighlight %}</p>
+setTimeout(Person.getName, 1000); // 'this' points to the global object
+</code></pre>
 
 <h3 id="no5-保护全局域">No5. 保护全局域</h3>
 
@@ -270,73 +269,75 @@ Person.getName(); // &lsquo;this&rsquo; points to Person</p>
 最小化全局域的直接使用是有助于排除代码互相干扰，节省你的查错时间的一种保护性技术。<br />
 虽然不能消除存储全局变量，但是可以使用命名空间技术来最小化这种影响：</p>
 
-<p>{% highlight javascript linenos %}
-// <strong>Namespacing</strong></p>
+<pre><code class="language-js">// **Namespacing**
 
-<p>// The global footprint is a single object containing</p>
+// The global footprint is a single object containing
 
-<p>// all other references needed.</p>
-
-<p>var MyApp = {};</p>
-
-<p>MyApp.id = 42;</p>
-
-<p>MyApp.utils = {</p>
-
-<pre><code>validate: function() {
-
-    //do work
-
-}
-</code></pre>
-
-<p>};
-{% endhighlight %}</p>
-
-<p>或者使用模块化技术：</p>
-
-<p>{% highlight javascript linenos %}
-// <strong>Module pattern</strong></p>
-
-<p>// This relies on immediately invoked anonymous functions and the</p>
-
-<p>// closure they create to maintain access to variables within the</p>
-
-<p>// function.</p>
-
-<p>var MyApp = (function() {</p>
-
-<pre><code>//declare a local variable
-
-var appId = 42;
+// all other references needed.
 
 
 
-function getAppId() {
-
-    //referring to a variable in this function's parent scope
-
-    return appId;
-
-}
+var MyApp = {};
 
 
 
-return {
+MyApp.id = 42;
 
-    getAppId: getAppId
+MyApp.utils = {
+
+    validate: function() {
+
+        //do work
+
+    }
 
 };
 </code></pre>
 
-<p>}());</p>
+<p>或者使用模块化技术：</p>
 
-<p>appId; // undefined</p>
+<pre><code class="language-js">// **Module pattern**
 
-<p>MyApp.appId; //undefined</p>
+// This relies on immediately invoked anonymous functions and the
 
-<p>MyApp.getAppId(); // returns 42. (Brought to you by closures)
-{% endhighlight %}</p>
+// closure they create to maintain access to variables within the
+
+// function.
+
+
+
+var MyApp = (function() {
+
+    //declare a local variable
+
+    var appId = 42;
+
+
+
+    function getAppId() {
+
+        //referring to a variable in this function's parent scope
+
+        return appId;
+
+    }
+
+
+
+    return {
+
+        getAppId: getAppId
+
+    };
+
+}());
+
+appId; // undefined
+
+MyApp.appId; //undefined
+
+MyApp.getAppId(); // returns 42. (Brought to you by closures)
+</code></pre>
 
 <h3 id="no6-继承">No6. 继承</h3>
 

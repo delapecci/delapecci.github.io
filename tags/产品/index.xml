@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>产品 on 咖啡色的硬度</title>
+    <link>https://blog.tl88.site/tags/%E4%BA%A7%E5%93%81/</link>
+    <description>Recent content in 产品 on 咖啡色的硬度</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 17 May 2013 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.tl88.site/tags/%E4%BA%A7%E5%93%81/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>新出现的音乐专辑App之我见</title>
+      <link>https://blog.tl88.site/2013/05/17/7/</link>
+      <pubDate>Fri, 17 May 2013 00:00:00 +0800</pubDate>
+      
+      <guid>https://blog.tl88.site/2013/05/17/7/</guid>
+      <description>今天看到新闻，itunes上出现了国内首个音乐专辑App《浅彩虹》。文章本身还是比较支持这种形式的数字媒体发行方式的。紧跟着，我心里一动，似</description>
+    </item>
+    
+    <item>
+      <title>小产品——【一起逛逛】基本概念</title>
+      <link>https://blog.tl88.site/2013/05/13/6/</link>
+      <pubDate>Mon, 13 May 2013 01:00:00 +0800</pubDate>
+      
+      <guid>https://blog.tl88.site/2013/05/13/6/</guid>
+      <description>&lt;p&gt;在日本这段日子，技术领域拓展了实时数据通信和视频流媒体，虽然还不甚深入，但是心里觉得里面还是有很大潜力，这期间也调研了网上其他类似的实时协作方面的工具、站点，结合朋友一起探讨的一些想法，我规划了这个小产品——一起逛逛。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

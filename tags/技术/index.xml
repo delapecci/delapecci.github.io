@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技术 on 咖啡色的硬度</title>
+    <link>https://blog.tl88.site/tags/%E6%8A%80%E6%9C%AF/</link>
+    <description>Recent content in 技术 on 咖啡色的硬度</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 24 Apr 2018 12:36:09 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.tl88.site/tags/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Node.js构造真正的全局单例</title>
+      <link>https://blog.tl88.site/post/js_true_singleton/</link>
+      <pubDate>Tue, 24 Apr 2018 12:36:09 +0800</pubDate>
+      
+      <guid>https://blog.tl88.site/post/js_true_singleton/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;翻译 &lt;a href=&#34;https://derickbailey.com/2016/03/09/creating-a-true-singleton-in-node-js-with-es6-symbols/&#34;&gt;Creating A True Singleton In Node.js, With ES6 Symbols&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Node.js 通常使用 module.exports 来暴露一个对象实例，并且允许其他 js 文件引用这个相同的对象实例。很多人把这个叫做 Node.js 的单例模式，但是其实这并不是真正的单例。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>个人小型产品开发开源协议选择</title>
+      <link>https://blog.tl88.site/2013/05/11/3/</link>
+      <pubDate>Sat, 11 May 2013 00:00:00 +0800</pubDate>
+      
+      <guid>https://blog.tl88.site/2013/05/11/3/</guid>
+      <description>个人或者小团队在开发小微产品时，如果愿意开源，那么选择开源协议就是意见必须考虑的事情。愿意分享自己的代码，但同时也必须保护自己的权益，以及想</description>
+    </item>
+    
+    <item>
+      <title>我的程序人生（一）</title>
+      <link>https://blog.tl88.site/2004/06/19/ycool-56661/</link>
+      <pubDate>Sat, 19 Jun 2004 14:26:22 +0800</pubDate>
+      
+      <guid>https://blog.tl88.site/2004/06/19/ycool-56661/</guid>
+      <description>我的程序人生从COBOL开始 我家没有阳台，无法像书中的哲人那样，坐在阳台上痴望着远处的夕阳，并通过缓缓游动的冥思来内省自我和发现世界。所以，</description>
+    </item>
+    
+  </channel>
+</rss>

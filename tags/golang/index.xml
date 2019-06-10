@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GoLang on 咖啡色的硬度</title>
+    <link>https://blog.tl88.site/tags/golang/</link>
+    <description>Recent content in GoLang on 咖啡色的硬度</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 30 Nov 2013 09:08:35 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.tl88.site/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>初次尝试Go语言</title>
+      <link>https://blog.tl88.site/2013/11/30/first-golan/</link>
+      <pubDate>Sat, 30 Nov 2013 09:08:35 +0800</pubDate>
+      
+      <guid>https://blog.tl88.site/2013/11/30/first-golan/</guid>
+      <description>Go语言已经4岁了，作为一个老牌码农和执着的尝鲜者，在我知道Go语言的4年以后，我才真正开始初步尝试了这门所谓的互联网的C语言。 背景是因为在</description>
+    </item>
+    
+  </channel>
+</rss>

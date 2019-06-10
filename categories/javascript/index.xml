@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on 咖啡色的硬度</title>
+    <link>https://blog.tl88.site/categories/javascript/</link>
+    <description>Recent content in Javascript on 咖啡色的硬度</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 25 Nov 2013 10:14:33 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.tl88.site/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>成为Javascript武士的六个秘笈</title>
+      <link>https://blog.tl88.site/2013/11/25/javascript/</link>
+      <pubDate>Mon, 25 Nov 2013 10:14:33 +0800</pubDate>
+      
+      <guid>https://blog.tl88.site/2013/11/25/javascript/</guid>
+      <description>原文地址：http://www.infoworld.com/d/application-development/6-secrets-of-j</description>
+    </item>
+    
+  </channel>
+</rss>

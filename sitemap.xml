@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://blog.tl88.site/tags/node.js/</loc>
+    <loc>https://blog.tl88.site/tags/nodejs/</loc>
     <lastmod>2018-04-24T12:36:09+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -53,13 +53,7 @@
   </url>
   
   <url>
-    <loc>https://blog.tl88.site/categories/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2018-04-24T12:36:09+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.tl88.site/tags/%E6%8A%80%E6%9C%AF%E5%B9%B2%E8%B4%A7/</loc>
+    <loc>https://blog.tl88.site/tags/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2018-04-24T12:36:09+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -71,26 +65,8 @@
   </url>
   
   <url>
-    <loc>https://blog.tl88.site/tags/%E7%BF%BB%E8%AF%91/</loc>
-    <lastmod>2018-04-24T12:36:09+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.tl88.site/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/</loc>
-    <lastmod>2018-04-24T09:32:09+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.tl88.site/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/</loc>
     <lastmod>2018-04-24T09:32:09+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.tl88.site/tags/nodejs/</loc>
-    <lastmod>2014-03-03T16:36:08+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -102,7 +78,7 @@
   </url>
   
   <url>
-    <loc>https://blog.tl88.site/categories/work/</loc>
+    <loc>https://blog.tl88.site/tags/%E6%80%9D%E8%80%83/</loc>
     <lastmod>2013-12-06T17:08:35+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -115,13 +91,13 @@
   </url>
   
   <url>
-    <loc>https://blog.tl88.site/tags/%E7%AE%A1%E7%90%86/</loc>
+    <loc>https://blog.tl88.site/categories/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2013-12-06T17:08:35+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.tl88.site/tags/go%E8%AF%AD%E8%A8%80/</loc>
+    <loc>https://blog.tl88.site/tags/golang/</loc>
     <lastmod>2013-11-30T09:08:35+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -134,10 +110,22 @@
   </url>
   
   <url>
+    <loc>https://blog.tl88.site/categories/javascript/</loc>
+    <lastmod>2013-11-25T10:14:33+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.tl88.site/2013/11/25/javascript/</loc>
     <lastmod>2013-11-25T10:14:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tl88.site/tags/%E7%BF%BB%E8%AF%91/</loc>
+    <lastmod>2013-11-25T10:14:33+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -161,7 +149,7 @@
   </url>
   
   <url>
-    <loc>https://blog.tl88.site/tags/%E4%BA%A7%E5%93%81%E8%AF%84%E8%AE%BA/</loc>
+    <loc>https://blog.tl88.site/tags/%E4%BA%A7%E5%93%81/</loc>
     <lastmod>2013-05-17T00:00:00+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -169,6 +157,13 @@
   <url>
     <loc>https://blog.tl88.site/2013/05/17/7/</loc>
     <lastmod>2013-05-17T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tl88.site/2013/05/13/6/</loc>
+    <lastmod>2013-05-13T01:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -209,18 +204,6 @@
   </url>
   
   <url>
-    <loc>https://blog.tl88.site/categories/blog/</loc>
-    <lastmod>2010-07-08T04:42:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.tl88.site/categories/past_ycool/</loc>
-    <lastmod>2010-07-08T04:42:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.tl88.site/2010/07/08/ycool-4544347/</loc>
     <lastmod>2010-07-08T04:42:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -228,7 +211,7 @@
   </url>
   
   <url>
-    <loc>https://blog.tl88.site/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>https://blog.tl88.site/tags/%E6%84%9F%E5%8F%97/</loc>
     <lastmod>2010-07-08T04:42:00+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -241,7 +224,7 @@
   </url>
   
   <url>
-    <loc>https://blog.tl88.site/tags/%E6%9C%88%E6%9B%9C%E8%AE%B0/</loc>
+    <loc>https://blog.tl88.site/categories/%E6%9C%88%E6%9B%9C%E8%AE%B0/</loc>
     <lastmod>2010-06-07T12:39:10+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -254,7 +237,7 @@
   </url>
   
   <url>
-    <loc>https://blog.tl88.site/tags/%E8%AF%97%E6%AD%8C/</loc>
+    <loc>https://blog.tl88.site/categories/%E8%AF%97%E6%AD%8C/</loc>
     <lastmod>2010-01-05T23:37:46+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -274,12 +257,6 @@
   </url>
   
   <url>
-    <loc>https://blog.tl88.site/tags/%E9%9A%8F%E8%AE%B0/</loc>
-    <lastmod>2008-06-26T10:06:16+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.tl88.site/2008/05/21/ycool-2990458/</loc>
     <lastmod>2008-05-21T22:43:46+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -287,10 +264,22 @@
   </url>
   
   <url>
+    <loc>https://blog.tl88.site/tags/%E6%80%A7/</loc>
+    <lastmod>2008-05-21T22:43:46+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.tl88.site/2008/04/14/ycool-2966725/</loc>
     <lastmod>2008-04-14T15:05:08+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tl88.site/tags/%E7%9F%AD%E5%BD%B1%E8%AF%84/</loc>
+    <lastmod>2008-04-14T15:05:08+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -315,7 +304,7 @@
   </url>
   
   <url>
-    <loc>https://blog.tl88.site/tags/%E5%9B%9B%E8%BD%AE%E5%84%BF%E6%97%A5%E8%AE%B0/</loc>
+    <loc>https://blog.tl88.site/tags/%E5%9B%9B%E8%BD%AE%E5%84%BF/</loc>
     <lastmod>2008-02-01T09:52:26+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -356,6 +345,12 @@
   </url>
   
   <url>
+    <loc>https://blog.tl88.site/tags/%E4%B8%A2%E5%A4%B1%E7%9A%84%E6%9C%8B%E5%8F%8B/</loc>
+    <lastmod>2007-11-19T10:37:43+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.tl88.site/2007/11/19/ycool-2876420/</loc>
     <lastmod>2007-11-19T10:37:43+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -381,6 +376,12 @@
     <lastmod>2007-02-26T15:36:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tl88.site/tags/%E6%B5%AE%E7%94%9F/</loc>
+    <lastmod>2007-02-26T15:36:00+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -454,6 +455,12 @@
   </url>
   
   <url>
+    <loc>https://blog.tl88.site/tags/%E8%AF%97%E6%AD%8C/</loc>
+    <lastmod>2005-06-06T14:14:32+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.tl88.site/2005/01/19/ycool-479811/</loc>
     <lastmod>2005-01-19T11:59:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -510,30 +517,16 @@
   </url>
   
   <url>
-    <loc>https://blog.tl88.site/2004/10/08/ycool-219175/</loc>
-    <lastmod>2004-10-08T23:20:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.tl88.site/tags/%E5%86%99%E4%B8%8D%E5%87%BA%E6%9D%A5%E7%9A%84%E4%B8%9C%E8%A5%BF/</loc>
-    <lastmod>2004-10-08T23:20:29+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.tl88.site/2004/10/08/ycool-219162/</loc>
-    <lastmod>2004-10-08T23:14:58+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.tl88.site/2004/10/08/ycool-219034/</loc>
     <lastmod>2004-10-08T22:15:20+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tl88.site/tags/%E6%B8%B8%E8%AE%B0/</loc>
+    <lastmod>2004-10-08T22:15:20+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -621,6 +614,12 @@
   </url>
   
   <url>
+    <loc>https://blog.tl88.site/tags/%E5%BE%B7%E5%9B%BD%E5%9B%9E%E5%BF%86/</loc>
+    <lastmod>2004-08-22T06:08:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.tl88.site/2004/08/22/ycool-137578/</loc>
     <lastmod>2004-08-22T05:54:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -639,6 +638,18 @@
     <lastmod>2004-08-22T05:17:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tl88.site/tags/%E4%B9%90%E9%98%9F/</loc>
+    <lastmod>2004-08-22T05:17:48+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tl88.site/tags/%E9%9D%92%E6%98%A5/</loc>
+    <lastmod>2004-08-22T05:17:48+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -730,6 +741,12 @@
     <lastmod>2004-06-25T05:52:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tl88.site/tags/2004%E6%AC%A7%E6%B4%B2%E6%9D%AF/</loc>
+    <lastmod>2004-06-25T05:38:54+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
