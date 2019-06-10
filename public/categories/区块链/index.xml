@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>区块链 on 技术咖啡馆-0xCafe</title>
+    <link>http://localhost:1313/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/</link>
+    <description>Recent content in 区块链 on 技术咖啡馆-0xCafe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 24 Apr 2018 09:32:09 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TOKEN遍地奈若何？</title>
+      <link>http://localhost:1313/post/token_all_what_next/</link>
+      <pubDate>Tue, 24 Apr 2018 09:32:09 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/token_all_what_next/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;翻译 &lt;a href=&#34;https://hackernoon.com/tokenize-all-the-things-and-what-happens-next-513d78add55&#34;&gt;Tokenize All the Things and What Happens Next?&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我参加了一个展会，此刻我正站在一个小展厅里，这里填满了一堆匆忙搭建并且贴满酷炫标签来推销功能和描述的展台。一个原本完整的社区分化成了链圈(他们希望采用区块链技术来替代或补充现有技术)和币圈(他们寻求通过代币系统或炒作来攫取或创造价值)。这样的分裂对社区而言并不是天生就不好，而是社区成长自然而然的过程，但是一切发生的有些过于快速，使得整个社区一片哗然。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

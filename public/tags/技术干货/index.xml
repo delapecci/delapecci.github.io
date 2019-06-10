@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技术干货 on 技术咖啡馆-0xCafe</title>
+    <link>http://localhost:1313/tags/%E6%8A%80%E6%9C%AF%E5%B9%B2%E8%B4%A7/</link>
+    <description>Recent content in 技术干货 on 技术咖啡馆-0xCafe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 24 Apr 2018 12:36:09 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/%E6%8A%80%E6%9C%AF%E5%B9%B2%E8%B4%A7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Node.js构造真正的全局单例</title>
+      <link>http://localhost:1313/post/js_true_singleton/</link>
+      <pubDate>Tue, 24 Apr 2018 12:36:09 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/js_true_singleton/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;翻译 &lt;a href=&#34;https://derickbailey.com/2016/03/09/creating-a-true-singleton-in-node-js-with-es6-symbols/&#34;&gt;Creating A True Singleton In Node.js, With ES6 Symbols&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Node.js 通常使用 module.exports 来暴露一个对象实例，并且允许其他 js 文件引用这个相同的对象实例。很多人把这个叫做 Node.js 的单例模式，但是其实这并不是真正的单例。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
