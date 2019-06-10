@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>翻译 on 咖啡色的硬度</title>
-    <link>http://localhost:1313/tags/%E7%BF%BB%E8%AF%91/</link>
+    <link>https://blog.tl88.site/tags/%E7%BF%BB%E8%AF%91/</link>
     <description>Recent content in 翻译 on 咖啡色的硬度</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 24 Apr 2018 12:36:09 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/%E7%BF%BB%E8%AF%91/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.tl88.site/tags/%E7%BF%BB%E8%AF%91/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Node.js构造真正的全局单例</title>
-      <link>http://localhost:1313/post/js_true_singleton/</link>
+      <link>https://blog.tl88.site/post/js_true_singleton/</link>
       <pubDate>Tue, 24 Apr 2018 12:36:09 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/js_true_singleton/</guid>
+      <guid>https://blog.tl88.site/post/js_true_singleton/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;翻译 &lt;a href=&#34;https://derickbailey.com/2016/03/09/creating-a-true-singleton-in-node-js-with-es6-symbols/&#34;&gt;Creating A True Singleton In Node.js, With ES6 Symbols&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -26,10 +26,10 @@
     
     <item>
       <title>TOKEN遍地奈若何？</title>
-      <link>http://localhost:1313/post/token_all_what_next/</link>
+      <link>https://blog.tl88.site/post/token_all_what_next/</link>
       <pubDate>Tue, 24 Apr 2018 09:32:09 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/token_all_what_next/</guid>
+      <guid>https://blog.tl88.site/post/token_all_what_next/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;翻译 &lt;a href=&#34;https://hackernoon.com/tokenize-all-the-things-and-what-happens-next-513d78add55&#34;&gt;Tokenize All the Things and What Happens Next?&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -39,10 +39,10 @@
     
     <item>
       <title>成为Javascript武士的六个秘笈</title>
-      <link>http://localhost:1313/2013/11/25/javascript/</link>
+      <link>https://blog.tl88.site/2013/11/25/javascript/</link>
       <pubDate>Mon, 25 Nov 2013 10:14:33 +0800</pubDate>
       
-      <guid>http://localhost:1313/2013/11/25/javascript/</guid>
+      <guid>https://blog.tl88.site/2013/11/25/javascript/</guid>
       <description>原文地址：http://www.infoworld.com/d/application-development/6-secrets-of-j</description>
     </item>
     

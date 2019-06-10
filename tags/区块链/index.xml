@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>区块链 on 咖啡色的硬度</title>
-    <link>http://localhost:1313/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/</link>
+    <link>https://blog.tl88.site/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/</link>
     <description>Recent content in 区块链 on 咖啡色的硬度</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 24 Apr 2018 09:32:09 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.tl88.site/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>TOKEN遍地奈若何？</title>
-      <link>http://localhost:1313/post/token_all_what_next/</link>
+      <link>https://blog.tl88.site/post/token_all_what_next/</link>
       <pubDate>Tue, 24 Apr 2018 09:32:09 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/token_all_what_next/</guid>
+      <guid>https://blog.tl88.site/post/token_all_what_next/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;翻译 &lt;a href=&#34;https://hackernoon.com/tokenize-all-the-things-and-what-happens-next-513d78add55&#34;&gt;Tokenize All the Things and What Happens Next?&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;

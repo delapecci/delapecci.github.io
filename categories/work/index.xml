@@ -2,120 +2,120 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>work on 咖啡色的硬度</title>
-    <link>http://localhost:1313/categories/work/</link>
+    <link>https://blog.tl88.site/categories/work/</link>
     <description>Recent content in work on 咖啡色的硬度</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 06 Dec 2013 17:08:35 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/categories/work/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.tl88.site/categories/work/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>浅论团队纪律</title>
-      <link>http://localhost:1313/2013/12/06/discipline-of-team/</link>
+      <link>https://blog.tl88.site/2013/12/06/discipline-of-team/</link>
       <pubDate>Fri, 06 Dec 2013 17:08:35 +0800</pubDate>
       
-      <guid>http://localhost:1313/2013/12/06/discipline-of-team/</guid>
+      <guid>https://blog.tl88.site/2013/12/06/discipline-of-team/</guid>
       <description>纪律是个不苟言笑的词汇，一提到它，我们都会立刻感到拘谨。从心理学角度看，纪律容易引发人的紧张感，视野变窄。但是恰恰因为这一点，纪律也能集中人</description>
     </item>
     
     <item>
       <title>初次尝试Go语言</title>
-      <link>http://localhost:1313/2013/11/30/first-golan/</link>
+      <link>https://blog.tl88.site/2013/11/30/first-golan/</link>
       <pubDate>Sat, 30 Nov 2013 09:08:35 +0800</pubDate>
       
-      <guid>http://localhost:1313/2013/11/30/first-golan/</guid>
+      <guid>https://blog.tl88.site/2013/11/30/first-golan/</guid>
       <description>Go语言已经4岁了，作为一个老牌码农和执着的尝鲜者，在我知道Go语言的4年以后，我才真正开始初步尝试了这门所谓的互联网的C语言。 背景是因为在</description>
     </item>
     
     <item>
       <title>成为Javascript武士的六个秘笈</title>
-      <link>http://localhost:1313/2013/11/25/javascript/</link>
+      <link>https://blog.tl88.site/2013/11/25/javascript/</link>
       <pubDate>Mon, 25 Nov 2013 10:14:33 +0800</pubDate>
       
-      <guid>http://localhost:1313/2013/11/25/javascript/</guid>
+      <guid>https://blog.tl88.site/2013/11/25/javascript/</guid>
       <description>原文地址：http://www.infoworld.com/d/application-development/6-secrets-of-j</description>
     </item>
     
     <item>
       <title>我对创业的一些看法(1)</title>
-      <link>http://localhost:1313/2013/11/06/startup-plan/</link>
+      <link>https://blog.tl88.site/2013/11/06/startup-plan/</link>
       <pubDate>Wed, 06 Nov 2013 16:56:53 +0800</pubDate>
       
-      <guid>http://localhost:1313/2013/11/06/startup-plan/</guid>
+      <guid>https://blog.tl88.site/2013/11/06/startup-plan/</guid>
       <description>万事开头难，创业尤其如此，再次记下自己在创业方面的一些想法，也希望自己能够找到志同道合的伙伴。 从步骤上讲，我认为创业的初期是先养活自己，理想</description>
     </item>
     
     <item>
       <title>童说童画上线，我又错过了一个想法实现的机会</title>
-      <link>http://localhost:1313/2013/05/23/9/</link>
+      <link>https://blog.tl88.site/2013/05/23/9/</link>
       <pubDate>Thu, 23 May 2013 00:00:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/2013/05/23/9/</guid>
+      <guid>https://blog.tl88.site/2013/05/23/9/</guid>
       <description>首先，恭喜童说童画上线，至少说明还是有着和我一样想法的人。而且，他们比我快。在郁闷之余也算有些欣慰。 从目前这个产品来看，还是很像一个针对儿童</description>
     </item>
     
     <item>
       <title>新出现的音乐专辑App之我见</title>
-      <link>http://localhost:1313/2013/05/17/7/</link>
+      <link>https://blog.tl88.site/2013/05/17/7/</link>
       <pubDate>Fri, 17 May 2013 00:00:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/2013/05/17/7/</guid>
+      <guid>https://blog.tl88.site/2013/05/17/7/</guid>
       <description>今天看到新闻，itunes上出现了国内首个音乐专辑App《浅彩虹》。文章本身还是比较支持这种形式的数字媒体发行方式的。紧跟着，我心里一动，似</description>
     </item>
     
     <item>
       <title>小创业和老婆</title>
-      <link>http://localhost:1313/2013/05/13/5/</link>
+      <link>https://blog.tl88.site/2013/05/13/5/</link>
       <pubDate>Mon, 13 May 2013 00:00:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/2013/05/13/5/</guid>
+      <guid>https://blog.tl88.site/2013/05/13/5/</guid>
       <description>起步创业，还是小创业，时间投入通常大于金钱投入，对于还没有明确盈利模式，什么根本还不知道怎么盈利的小产品，这是件麻烦事；一方面要独自坚持，一</description>
     </item>
     
     <item>
       <title>团队，团队</title>
-      <link>http://localhost:1313/2013/05/12/4/</link>
+      <link>https://blog.tl88.site/2013/05/12/4/</link>
       <pubDate>Sun, 12 May 2013 00:00:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/2013/05/12/4/</guid>
+      <guid>https://blog.tl88.site/2013/05/12/4/</guid>
       <description>事业开始，不论大小，一个人不够，需要团队。 需要一个共同的团队价值观，一个共同的团队目标。 可是，对于做小产品的我而言，招揽人才，组建团队是难之</description>
     </item>
     
     <item>
       <title>个人小型产品开发开源协议选择</title>
-      <link>http://localhost:1313/2013/05/11/3/</link>
+      <link>https://blog.tl88.site/2013/05/11/3/</link>
       <pubDate>Sat, 11 May 2013 00:00:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/2013/05/11/3/</guid>
+      <guid>https://blog.tl88.site/2013/05/11/3/</guid>
       <description>个人或者小团队在开发小微产品时，如果愿意开源，那么选择开源协议就是意见必须考虑的事情。愿意分享自己的代码，但同时也必须保护自己的权益，以及想</description>
     </item>
     
     <item>
       <title>小产品——我爱小窍门</title>
-      <link>http://localhost:1313/2013/05/09/2/</link>
+      <link>https://blog.tl88.site/2013/05/09/2/</link>
       <pubDate>Thu, 09 May 2013 00:00:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/2013/05/09/2/</guid>
+      <guid>https://blog.tl88.site/2013/05/09/2/</guid>
       <description>生活中、学习中、工作中，很多时候，我们每个人都会灵机一动，找到一个小窍门，轻松地解决问题。这个时候，我们通常会比较开心，甚至有点小得意，那么</description>
     </item>
     
     <item>
       <title>小产品概念</title>
-      <link>http://localhost:1313/2013/05/08/1/</link>
+      <link>https://blog.tl88.site/2013/05/08/1/</link>
       <pubDate>Wed, 08 May 2013 00:00:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/2013/05/08/1/</guid>
+      <guid>https://blog.tl88.site/2013/05/08/1/</guid>
       <description>去年6月份，我辞掉了在快钱的技术经理职位，远赴日本，在朋友的一家公司里帮忙。在我看来，这是工程师出身的我的第一次创业尝试。去的时候，公司里已</description>
     </item>
     
     <item>
       <title>工作随想</title>
-      <link>http://localhost:1313/2008/06/25/work-memo/</link>
+      <link>https://blog.tl88.site/2008/06/25/work-memo/</link>
       <pubDate>Thu, 26 Jun 2008 10:06:16 +0800</pubDate>
       
-      <guid>http://localhost:1313/2008/06/25/work-memo/</guid>
+      <guid>https://blog.tl88.site/2008/06/25/work-memo/</guid>
       <description>一个应用系统的目的是什么？ 结束口头与纸张执行业务的场景，加快人员之间的沟通效率及处理效率。 为此，一个应用系统所需的环境条件有哪些？ a. 数据与文</description>
     </item>
     
