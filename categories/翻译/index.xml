@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>翻译 on 咖啡色的硬度</title>
+    <link>http://localhost:1313/categories/%E7%BF%BB%E8%AF%91/</link>
+    <description>Recent content in 翻译 on 咖啡色的硬度</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 24 Apr 2018 12:36:09 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/categories/%E7%BF%BB%E8%AF%91/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Node.js构造真正的全局单例</title>
+      <link>http://localhost:1313/post/js_true_singleton/</link>
+      <pubDate>Tue, 24 Apr 2018 12:36:09 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/js_true_singleton/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;翻译 &lt;a href=&#34;https://derickbailey.com/2016/03/09/creating-a-true-singleton-in-node-js-with-es6-symbols/&#34;&gt;Creating A True Singleton In Node.js, With ES6 Symbols&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Node.js 通常使用 module.exports 来暴露一个对象实例，并且允许其他 js 文件引用这个相同的对象实例。很多人把这个叫做 Node.js 的单例模式，但是其实这并不是真正的单例。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>TOKEN遍地奈若何？</title>
+      <link>http://localhost:1313/post/token_all_what_next/</link>
+      <pubDate>Tue, 24 Apr 2018 09:32:09 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/token_all_what_next/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;翻译 &lt;a href=&#34;https://hackernoon.com/tokenize-all-the-things-and-what-happens-next-513d78add55&#34;&gt;Tokenize All the Things and What Happens Next?&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我参加了一个展会，此刻我正站在一个小展厅里，这里填满了一堆匆忙搭建并且贴满酷炫标签来推销功能和描述的展台。一个原本完整的社区分化成了链圈(他们希望采用区块链技术来替代或补充现有技术)和币圈(他们寻求通过代币系统或炒作来攫取或创造价值)。这样的分裂对社区而言并不是天生就不好，而是社区成长自然而然的过程，但是一切发生的有些过于快速，使得整个社区一片哗然。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>穿越时光的软件</title>
+      <link>http://localhost:1313/post/2014-03-03-time-loop-software-trans/</link>
+      <pubDate>Mon, 03 Mar 2014 16:36:08 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/2014-03-03-time-loop-software-trans/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;原文地址：&lt;a href=&#34;http://marak.com/blog/2013-05-13-time-loop-software&#34;&gt;http://marak.com/blog/2013-05-13-time-loop-software&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;假如能写出可以进行时间旅行的软件会怎样？假如我们能写出一种软件，它能接收在不久的将来得出的计算结果会怎样？这会是种什么样的软件？能解决什么样的问题？&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

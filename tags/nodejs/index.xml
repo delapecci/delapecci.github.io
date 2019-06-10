@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NodeJS on 咖啡色的硬度</title>
+    <link>http://localhost:1313/tags/nodejs/</link>
+    <description>Recent content in NodeJS on 咖啡色的硬度</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 03 Mar 2014 16:36:08 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>穿越时光的软件</title>
+      <link>http://localhost:1313/post/2014-03-03-time-loop-software-trans/</link>
+      <pubDate>Mon, 03 Mar 2014 16:36:08 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/2014-03-03-time-loop-software-trans/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;原文地址：&lt;a href=&#34;http://marak.com/blog/2013-05-13-time-loop-software&#34;&gt;http://marak.com/blog/2013-05-13-time-loop-software&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;假如能写出可以进行时间旅行的软件会怎样？假如我们能写出一种软件，它能接收在不久的将来得出的计算结果会怎样？这会是种什么样的软件？能解决什么样的问题？&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

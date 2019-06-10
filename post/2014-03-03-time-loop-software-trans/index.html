@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>穿越时光的软件 - 咖啡色的硬度</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="ChrisL" /><meta name="description" content="编程也玩儿穿越" />
+
+  <meta name="keywords" content="区块链, 分布式, Node.js, Elixir, DevOps, ChatOps, 技术论文, 技术翻译, 技术哲学" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.55.6" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/2014-03-03-time-loop-software-trans/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/dist/even.min.css?v=3.1.1" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="穿越时光的软件" />
+<meta property="og:description" content="编程也玩儿穿越" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/2014-03-03-time-loop-software-trans/" />
+<meta property="article:published_time" content="2014-03-03T16:36:08&#43;08:00"/>
+<meta property="article:modified_time" content="2014-03-03T16:36:08&#43;08:00"/>
+
+<meta itemprop="name" content="穿越时光的软件">
+<meta itemprop="description" content="编程也玩儿穿越">
+
+
+<meta itemprop="datePublished" content="2014-03-03T16:36:08&#43;08:00" />
+<meta itemprop="dateModified" content="2014-03-03T16:36:08&#43;08:00" />
+<meta itemprop="wordCount" content="2570">
+
+
+
+<meta itemprop="keywords" content="NodeJS," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="穿越时光的软件"/>
+<meta name="twitter:description" content="编程也玩儿穿越"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">咖啡色的硬核</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">香浓</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">回味</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">品种</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">Me</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">咖啡色的硬核</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">香浓</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">回味</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">品种</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">Me</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">穿越时光的软件</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2014-03-03 </span>
+        <div class="post-category">
+            
+              <a href="/categories/%E7%BF%BB%E8%AF%91/"> 翻译 </a>
+            
+          </div>
+        
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#来写一个穿越时光的软件吧">来写一个穿越时光的软件吧</a>
+<ul>
+<li><a href="#事件循环">事件循环</a></li>
+</ul></li>
+<li><a href="#使用时间循环来进行暴力破解">使用时间循环来进行暴力破解</a></li>
+<li><a href="#使用时间循环来求素因数">使用时间循环来求素因数</a></li>
+<li><a href="#零延迟-即时通讯">零延迟/即时通讯</a></li>
+<li><a href="#时间循环逻辑和诺维科夫自洽性原则">时间循环逻辑和诺维科夫自洽性原则</a></li>
+<li><a href="#一次有点让人糊涂的调试经历">一次有点让人糊涂的调试经历</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <blockquote>
+<p>原文地址：<a href="http://marak.com/blog/2013-05-13-time-loop-software">http://marak.com/blog/2013-05-13-time-loop-software</a></p>
+</blockquote>
+
+<p>假如能写出可以进行时间旅行的软件会怎样？假如我们能写出一种软件，它能接收在不久的将来得出的计算结果会怎样？这会是种什么样的软件？能解决什么样的问题？</p>
+
+<p>时间循环逻辑是计算一个假设的系统，它利用了<a href="http://zh.wikipedia.org/wiki/%E8%AF%BA%E7%BB%B4%E7%A7%91%E5%A4%AB%E8%87%AA%E6%B4%BD%E6%80%A7%E5%8E%9F%E5%88%99">诺维科夫自洽性原则</a>。在这个系统中，计算机能够通过时间回溯发送一个计算结果，并且依照自洽性原则强制返回结果是正确的。虽然这种未来主义的概念目前看来是不可能的，但是想象一下，让一个3世纪铁匠来解释核裂变，曾经也同样是不可能的。</p>
+
+<h2 id="来写一个穿越时光的软件吧">来写一个穿越时光的软件吧</h2>
+
+<p>基于时间循环逻辑我们能够实现一些理论性的程序结构，来帮助理解软件领域的时间旅行。在接下来的例子里，我们将展现一个时间循环逻辑会是什么样子。</p>
+
+<h3 id="事件循环">事件循环</h3>
+
+<p>在下面的例子里我们使用Javascript语言。Javascript提供了单线程的代码执行方式。一个Javascript虚拟机通常会运行一个事件轮询(Event Loop)，这个事件轮询的每一个时点代表一段单独的代码执行周期，当这个周期完成后，事件轮询的下一个时点就会发生。在时下很流行的<a href="http://nodejs.org">Node.js</a>框架里，提供了一个API用于延迟一段代码的执行到事件轮询的下一次时点发生。</p>
+
+<p>node.js process.nextTick()的例子:</p>
+
+<pre><code class="language-js">function foo() {
+  console.log('foo');
+}
+
+process.nextTick(foo);
+console.log('bar');
+</code></pre>
+
+<p>执行后输出:</p>
+
+<pre><code>bar
+foo
+</code></pre>
+
+<p>使用Javascript setTimeout函数也可以达到process.nextTick的效果:</p>
+
+<pre><code class="language-js">setTimeout(foo, 0);
+</code></pre>
+
+<p>node.js process.prevTick() 的例子:</p>
+
+<pre><code class="language-js">//现在让我们想象一下，如果我们不是延迟代码执行到事件轮询的下一个时点，而是回溯到事件轮询的前一个时点上执行
+
+function foo() {
+  console.log('foo');
+}
+
+console.log('bar');
+// **译者注** 在node.js里并不存在process.prevTick这个API，这是理论上的模型
+process.prevTick(foo);
+</code></pre>
+
+<p>执行后输出:</p>
+
+<pre><code>foo
+bar
+</code></pre>
+
+<p>也可以通过setTimeout为负值来达到process.prevTick的效果:</p>
+
+<pre><code class="language-js">setTimeout(foo, -1);
+</code></pre>
+
+<p>我们所做的只是在控制台上记录了一些字符串，所以这是一个牵强的例子。那么接下来，我们将基于process.prevTick的概念实现一个更加复杂的时间循环程序。</p>
+
+<h2 id="使用时间循环来进行暴力破解">使用时间循环来进行暴力破解</h2>
+
+<p>让我们来设想一个暴力搜索破解密码的场景，想象一个需要密码进行登录的功能。我们的破解软件通过访问一个巨大的词典，顺次使用词典里的词作为密码尝试登录，直到匹配上正确密码。<br />
+下面是<a href="https://gist.github.com/Marak/5566478#file-1-bruteforce-js">程序代码</a>:
+<em>必须牢记，诺维科夫自洽性原则能够保证，这段代码绝不会产生事件序列上的悖论</em></p>
+
+<pre><code class="language-js">//
+// Brute force password cracking in polynomial time using node.js and process.prevTick()
+//
+// see: http://en.wikipedia.org/wiki/Novikov_self-consistency_principle
+//
+// Authors:
+//   http://jesusabdullah.net/
+//   http://marak.com/
+//
+var dict = ['a','aa','aaa', 'etc...']; // assume array contains very large dictionary file
+ 
+function passwordCrack () {
+  if(typeof solution === 'undefined') {
+    var solution = '';
+  }
+  if(dict.length === 0) {
+    return ('password not contained in dictionary!');
+  }
+  if(solution === &quot;superpassword&quot;) {
+    //
+    // Important: When password is found, set the solution in the previous tick
+    //
+    process.prevTick(function() {
+      solution = &quot;superpassword&quot;;
+    });
+    return solution;
+  } else {
+    //
+    // Password was not found, go back and try again
+    //
+    process.prevTick(function(){
+      solution = dict.pop();
+    });
+  }
+}
+ 
+console.log(passwordCrack()); // returns 'superpassword'
+</code></pre>
+
+<h2 id="使用时间循环来求素因数">使用时间循环来求素因数</h2>
+
+<p>使用时间循环能够在多项式时间内计算出素因数。<a href="https://gist.github.com/Marak/3967740#file-0-primefactor-js">代码</a>如下:</p>
+
+<pre><code class="language-js">//
+// Calculating prime factors in polynomial time using node.js process.prevTick()
+//
+// see: http://en.wikipedia.org/wiki/Prime_factor
+// see: http://en.wikipedia.org/wiki/Novikov_self-consistency_principle
+//
+// Authors:
+//   http://jesusabdullah.net/
+//   http://marak.com
+//
+ 
+function primeFactor (n) {
+ 
+  //
+  // If f is not defined, initialize it to zero
+  //
+  if(typeof f === &quot;undefined&quot;) {
+    var f = 0;
+  }
+ 
+  //
+  // 0 and 1 do not have prime factors
+  //
+  if(n === 0 || n === 1) {
+    return ('no prime factors found');
+  }
+ 
+  //
+  // Check if f is a prime factor
+  //
+  if(f !== n &amp;&amp; (f % n === 0) &amp;&amp; isPrime(f)) {
+ 
+    //
+    // If f is a prime factor, send f to the previous tick
+    //
+    process.prevTick(function(){
+      //
+      // Important: Must set correct value to f so the previous tick contains the solution
+      //
+      f = f;
+    });
+    return f;
+  } else {
+    //
+    // If f is not a prime factor, send f+1 to the previous tick
+    //
+    process.prevTick(function(){
+      f = f + 1;
+    });
+  }
+}
+ 
+console.log(primeFactor(25)); // returns 5
+</code></pre>
+
+<h2 id="零延迟-即时通讯">零延迟/即时通讯</h2>
+
+<p>时间循环逻辑在理论上的应用是无穷的: 想象一个基于时间循环逻辑的通讯协议，这就意味着零等待；想象游戏、视频广播和文件共享传输也将在瞬间完成没有丝毫延迟。通过利用自洽性原则，我们知道数据将在不久的未来被发送（因为源数据已经在&rdquo;过去&rdquo;开始了传输）并最终到达目的地。只要数据最终能够被接收，我们就能把结果从未来发回当前的这一瞬，从而彻底消除等待和延迟。</p>
+
+<h2 id="时间循环逻辑和诺维科夫自洽性原则">时间循环逻辑和诺维科夫自洽性原则</h2>
+
+<p>怎样才可能编写一个时间循环程序呢？得益于自洽性原则和量子力学的持续发展，这种令人费解的构想并非遥不可及，很有可能在下一个百年，我们就能看到这种真正被开发出来的软件。<br />
+时间循环逻辑最初是由<a href="http://zh.wikipedia.org/wiki/%E6%B1%89%E6%96%AF%C2%B7%E8%8E%AB%E6%8B%89%E7%BB%B4%E5%85%8B">Hans Maravec</a>提出，他以在卡耐基梅隆大学进行的的机器人和人工智能研究工作而著名。你可以找到Hans最初在1991年的论文——<a href="http://www.frc.ri.cmu.edu/users/hpm/project.archive/general.articles/1991/TempComp.html">时间旅行和计算</a>。我建议通读全文。</p>
+
+<p>依照相对论我们知道，量子级别的时光倒流在数学上采用在内的某些特殊方式是可能的，比如闭合类时曲线——一个闭合类时曲线就是在洛伦兹流形(Lorenzian manifold)里的一条世界线(world-line)。</p>
+
+<p>闭合类时曲线给物理学家们提出了一个问题：它的存在意味着时间旅行是可能的，而如果时间旅行是可能的，那么我们现在已经推出的时间旅行悖论，就会违背因果的概念；因为我们不能在我们所处的时空里违反因果关系是被广泛认同的，所以必须解释闭合类时曲线是如何存在的。</p>
+
+<p>诺维科夫在他的自洽性原则里断言，如果一个事件存在会引发悖论，或者任何对&rdquo;过去&rdquo;的改变，那么这一事件就绝不会发生。简而言之，创建时间旅行悖论是不可能的。您可以参考<a href="http://authors.library.caltech.edu/3737">原文</a>，我建议您从<a href="http://en.wikipedia.org/wiki/Novikov_self-consistency_principle#History_of_the_principle">这一原则的由来</a>开始阅读。</p>
+
+<h2 id="一次有点让人糊涂的调试经历">一次有点让人糊涂的调试经历</h2>
+
+<p>为了让时间循环逻辑瞬间返回计算结果，我们必须保证这一问题会被计算足够久并最终得出结果——假设一个问题需要60秒钟解决，那么程序就必须运行至少60秒；时间循环逻辑不能违反因果关系。我们能够立刻得到答案，是因为我们确信在未来消耗60秒钟就可以算出并送回结果。<br />
+这就导致调试时间循环逻辑几乎是不可能的——任何在时间循环逻辑里出现的bug都意味着在未来的某个时刻一个问题产生了，而这一事件可能与软件有关，也可能与软件无关！<br />
+假想一台采用时间循环逻辑进行密码暴力破解（就像前面的代码所做的那样）的计算机，我打开它来破解一个密码，却发现这个程序没用，我很泄气地关掉计算机并向我的同时Josh吐槽。<br />
+Josh同样打开计算机来破解这个密码，程序竟然在不到1毫秒瞬间得出了结果！<br />
+晕菜，为什么程序在Josh那儿有用，在我这儿就没用呢？！<br />
+Josh回答: &ldquo;实际上很简单，用这台机器暴力破解密码需要大约400小时，在时间上CPU一定会在400个小时以后得出结果并一直把结果送回到现在。我能够得到结果是因为我决定在未来的399小时零59分钟内不关闭这台计算机，换言之，你关机太早了！&rdquo;</p>
+
+<dl>
+<dt><em>这就是拔掉电脑电源的后果</em><br /></dt>
+</dl>
+
+<p>:-)</p>
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">ChrisL</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">2014-03-03</span>
+  </p>
+  
+  
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/nodejs/">NodeJS</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/token_all_what_next/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">TOKEN遍地奈若何？</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        
+          <a class="next" href="/2013/12/06/discipline-of-team/">
+            <span class="next-text nav-default">浅论团队纪律</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:delapecci@aliyun.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://www.linkedin.com/in/0xcafe/" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="https://github.com/delapecci" class="iconfont icon-github" title="github"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    
+      2004 - 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">ChrisL</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/even.min.js?v=3.1.1"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>诗歌 on 咖啡色的硬度</title>
+    <link>http://localhost:1313/tags/%E8%AF%97%E6%AD%8C/</link>
+    <description>Recent content in 诗歌 on 咖啡色的硬度</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 05 Jan 2010 23:37:46 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/%E8%AF%97%E6%AD%8C/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>新年，我走了</title>
+      <link>http://localhost:1313/2010/01/05/ycool-4032428/</link>
+      <pubDate>Tue, 05 Jan 2010 23:37:46 +0800</pubDate>
+      
+      <guid>http://localhost:1313/2010/01/05/ycool-4032428/</guid>
+      <description>这是个暧昧的季节 我不懂得什么是春 也不懂得什么是冬 只在这摇摆的风里 低垂额头 三十是个遮掩的岁数 我不懂得什么是忍受 也不懂得什么是拥有 只在这晃动的车</description>
+    </item>
+    
+    <item>
+      <title>夜里人</title>
+      <link>http://localhost:1313/2008/05/21/ycool-2990458/</link>
+      <pubDate>Wed, 21 May 2008 22:43:46 +0800</pubDate>
+      
+      <guid>http://localhost:1313/2008/05/21/ycool-2990458/</guid>
+      <description>在北京的路上 狂奔 体会遗忘与梦幻的撕裂感觉 想 抚摸冲动的自己 或者进入你 试图 去寻找熟悉 亦或某个开始 而涂满窗格的 停止的静默 让飞驰的身体变得虚无 算了 所</description>
+    </item>
+    
+  </channel>
+</rss>
