@@ -6,10 +6,19 @@
     <description>Recent content in Categories on 咖啡色的硬度</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 14 Jun 2019 09:38:09 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jun 2019 13:46:00 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.tl88.site/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>诗歌</title>
+      <link>https://blog.tl88.site/categories/%E8%AF%97%E6%AD%8C/</link>
+      <pubDate>Fri, 14 Jun 2019 13:46:00 +0800</pubDate>
+      
+      <guid>https://blog.tl88.site/categories/%E8%AF%97%E6%AD%8C/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>随笔</title>
@@ -44,15 +53,6 @@
       <pubDate>Mon, 07 Jun 2010 12:39:10 +0800</pubDate>
       
       <guid>https://blog.tl88.site/categories/%E6%9C%88%E6%9B%9C%E8%AE%B0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>诗歌</title>
-      <link>https://blog.tl88.site/categories/%E8%AF%97%E6%AD%8C/</link>
-      <pubDate>Tue, 05 Jan 2010 23:37:46 +0800</pubDate>
-      
-      <guid>https://blog.tl88.site/categories/%E8%AF%97%E6%AD%8C/</guid>
       <description></description>
     </item>
     

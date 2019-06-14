@@ -2,7 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.tl88.site/post/2019-06-15-new-land/</loc>
+    <loc>https://blog.tl88.site/post/2019-06-14-rimuyuyan/</loc>
+    <lastmod>2019-06-14T13:46:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tl88.site/post/2019-06-14-zhongnian/</loc>
+    <lastmod>2019-06-14T13:46:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tl88.site/post/2019-06-14-tianshan/</loc>
+    <lastmod>2019-06-14T13:43:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tl88.site/post/2019-06-14-tijian/</loc>
+    <lastmod>2019-06-14T13:33:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tl88.site/post/2019-06-14-wumian/</loc>
+    <lastmod>2019-06-14T13:33:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tl88.site/post/2019-06-14-nanbei-yanyi/</loc>
+    <lastmod>2019-06-14T13:33:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tl88.site/post/2019-06-14-new-land/</loc>
     <lastmod>2019-06-14T09:38:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -31,25 +73,61 @@
   
   <url>
     <loc>https://blog.tl88.site/categories/</loc>
-    <lastmod>2019-06-14T09:38:09+08:00</lastmod>
+    <lastmod>2019-06-14T13:46:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.tl88.site/post/</loc>
-    <lastmod>2019-06-14T09:38:09+08:00</lastmod>
+    <lastmod>2019-06-14T13:46:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.tl88.site/tags/</loc>
-    <lastmod>2019-06-14T09:38:09+08:00</lastmod>
+    <lastmod>2019-06-14T13:46:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tl88.site/tags/%E4%BA%BA%E7%94%9F/</loc>
+    <lastmod>2019-06-14T13:46:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.tl88.site/</loc>
-    <lastmod>2019-06-14T09:38:09+08:00</lastmod>
+    <lastmod>2019-06-14T13:46:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tl88.site/categories/%E8%AF%97%E6%AD%8C/</loc>
+    <lastmod>2019-06-14T13:46:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tl88.site/tags/%E8%A5%BF%E5%9F%9F/</loc>
+    <lastmod>2019-06-14T13:43:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tl88.site/tags/%E6%80%9D%E8%80%83/</loc>
+    <lastmod>2019-06-14T13:33:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tl88.site/tags/%E7%88%B1%E6%83%85/</loc>
+    <lastmod>2019-06-14T13:33:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tl88.site/tags/%E8%AF%BB%E4%B9%A6/</loc>
+    <lastmod>2019-06-14T13:33:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -94,12 +172,6 @@
     <lastmod>2014-03-03T16:36:08+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.tl88.site/tags/%E6%80%9D%E8%80%83/</loc>
-    <lastmod>2013-12-06T17:08:35+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -241,12 +313,6 @@
     <lastmod>2010-01-05T23:37:46+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.tl88.site/categories/%E8%AF%97%E6%AD%8C/</loc>
-    <lastmod>2010-01-05T23:37:46+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
