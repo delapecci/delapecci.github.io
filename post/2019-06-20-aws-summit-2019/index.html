@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>捧场AWS的体验与思考 - 咖啡色的硬度</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="ChrisL" />
+  <meta name="description" content="  AWS SUMMIT 2019 上海   6月20号，在世博中心参加了AWS Summit 2019。此行目的之一是了解AWS在图文AI相关领域的产品和应用状况，为后面的日本之行做一下调研。
+" />
+
+  <meta name="keywords" content="诗歌, Java, Node.js, Elixir, 区块链, 分布式, 技术论文, 技术, 哲学" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.55.6" />
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/dist/even.min.css?v=3.1.1" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="捧场AWS的体验与思考" />
+<meta property="og:description" content="
+     
+            AWS SUMMIT 2019 上海
+        
+
+
+
+6月20号，在世博中心参加了AWS Summit 2019。此行目的之一是了解AWS在图文AI相关领域的产品和应用状况，为后面的日本之行做一下调研。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.tl88.site/post/2019-06-20-aws-summit-2019/" />
+<meta property="article:published_time" content="2019-06-20T20:50:00&#43;08:00"/>
+<meta property="article:modified_time" content="2019-06-20T20:50:00&#43;08:00"/>
+
+<meta itemprop="name" content="捧场AWS的体验与思考">
+<meta itemprop="description" content="
+     
+            AWS SUMMIT 2019 上海
+        
+
+
+
+6月20号，在世博中心参加了AWS Summit 2019。此行目的之一是了解AWS在图文AI相关领域的产品和应用状况，为后面的日本之行做一下调研。">
+
+
+<meta itemprop="datePublished" content="2019-06-20T20:50:00&#43;08:00" />
+<meta itemprop="dateModified" content="2019-06-20T20:50:00&#43;08:00" />
+<meta itemprop="wordCount" content="1691">
+
+
+
+<meta itemprop="keywords" content="思考," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="捧场AWS的体验与思考"/>
+<meta name="twitter:description" content="
+     
+            AWS SUMMIT 2019 上海
+        
+
+
+
+6月20号，在世博中心参加了AWS Summit 2019。此行目的之一是了解AWS在图文AI相关领域的产品和应用状况，为后面的日本之行做一下调研。"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">咖啡色的硬度</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">香浓</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">回味</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">品种</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">口感</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">Me</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">咖啡色的硬度</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">香浓</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">回味</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">品种</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">口感</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">Me</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">捧场AWS的体验与思考</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2019-06-20 </span>
+        <div class="post-category">
+            
+              <a href="/categories/%E6%8A%80%E6%9C%AF/"> 技术 </a>
+            
+          </div>
+        
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  
+  <div class="post-toc-content always-active">
+    
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <figure>
+    <img src="/awssummit2019.jpg" height="100"/> <figcaption>
+            <h4>AWS SUMMIT 2019 上海</h4>
+        </figcaption>
+</figure>
+
+
+<p>6月20号，在世博中心参加了AWS Summit 2019。此行目的之一是了解AWS在图文AI相关领域的产品和应用状况，为后面的日本之行做一下调研。</p>
+
+<p>先概要一下自己一天所见。
+上午参加大会，并无干货，只是AWS和伙伴厂商的广告秀；
+之后去参观了AWS的展区。展区里的核心内容是aws的云计算产品，其中有一个Demo吸引了我的关注。这个Demo演示了一个采购物流的过程——客户采购后，由人工智能配货并安排智能小车送货，并通过区块链技术验证可能在送货中间环节发生的利益损害，并声称此Demo的设计思想不但可以用于采购物流，还可以用于其他涉及多个利益主体间的业务往来。
+午饭后，先体验了猎豹移动机器手臂做的拿铁咖啡，为此错过了一个技术session，等了1个半小时，制作只需要2分钟。这个演示其实就是机器手臂代替了人类，按照程序制定好的标准动作过程制作咖啡。两只手臂可以完成取杯、倒奶、摇匀和递送的主要动作，但是补料仍然需要人工，演示的咖啡品类只有拿铁。在出现故障后的调整和恢复时间将近20分钟，期间需要人工进入系统操作界面进行恢复操作。而后去参观了AWS行业展区，看到了医疗、媒体和教育行业的一些AI应用展示。
+端着咖啡我听了两个半session，原本很有期待的IoT与AI的内容让我很失望，只是aws的产品操作演示，听了一半就走了；费良宏的如何给应用添加智能功能一讲还算有点意思，演示了如何通过aws的AI相关产品API快速实现一些智能特性，为应用增加吸引力；仔细听了FunPlus这家游戏公司的全球同服数据同步问题的解决和架构介绍。
+之后去浏览了一下APN合作厂商展台，没有很特别的东西。领了一件纪念T恤，不错。</p>
+
+<figure>
+    <img src="/gobuild.jpg" height="100"/> <figcaption>
+            <h4>纪念T恤</h4>
+        </figcaption>
+</figure>
+
+
+<p>从参观的角度看，吸引人的展品和方案并不多，尤其是我关注的IoT+AI+xR应用方面，没有什么新的创意。但是，采购物流的Demo、智慧媒体直播、AI眼疾辅助决策系统和云上AI健身私教几个展示还是让我有了不少收获。</p>
+
+<p>接下来就说一说会后自己的思考。</p>
+
+<ul>
+<li><p>AWS的云计算产品更加丰富，AWS也扩大了自己的解决方案专家团队，因为只有生产资料还是不够的，在面临多家国内云计算厂商竞争时，AWS意识到必须有更好的方案和服务能力。那么可以预见到，云计算的商业模式一定会从单纯销售计算能力转变为销售方案和服务，并通过合作扩大自己的生态——研发人员和应用合作伙伴。因此，我还需要进一步了解一下APN的现状和准入标准，看看自己的企业是否能够获得一些支持。</p></li>
+
+<li><p>AI应用开始平民化，但是杀手级应用和新的创意仍然不多。我认为AI产业需要四大要素：算力、数据、模型和新终端。目前云计算拉低了算力成本，过去的5年大数据行业一场厮杀下来，有效数据集价格上升，仍有大量数据价值没有被挖出，因为消费数据的有价值的模型还不够；然而即便有了算力数据和模型的支撑，缺乏更多消费级的应用终端应该是限制AI民用应用爆发的因素之一。我很期待xR和新型IoT消费级硬件来刺激AI产业。那么猎豹移动的机器人就是这样一种尝试，虽然还有大量的技术和体验问题存在，但是商用或者家用机器人（手臂）肯定会进入普通消费场景，提供更高效和精准的服务。</p></li>
+
+<li><p>大数据和云计算集成商的日子还是不好过。多家参展厂商的产品都是大数据中台、基于云服务的企业管理软件，没有让我眼前一亮的变现方式。的确，企业是王道，企业服务是蓝海，但是在国内，除了大型企业和政府采购的体制性财务红利之外，真正可以消费得起的企业又有多少，他们真正需要的又是什么，值得持续去思考。也因此，在企业云服务和定制化开发方面将持续存在需求。</p></li>
+
+<li><p>AWS的采购物流Demo虽然使用了联盟链技术来进行交易追溯和验证，但是区块链在云计算业内仍然只是云上托管一个出口，也许区块链应用的核心障碍仍然是构造一个有实际意义的经济规则，并解决多方的利益对抗。</p></li>
+
+<li><p>识别性AI技术比较成熟，基于NLP的语音应用也已进入成熟期，今年或许会有更多的可能出现，比如辅助残障人士的产品，语音指令+无服务化架构的云能力集成互联等。此次去日本，我觉得就可以在识别性AI技术方面进行一些咨询和尝试，争取为企业在明年奥运经济中谋求一个位置，带动企业转型。</p></li>
+</ul>
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">ChrisL</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">2019-06-20</span>
+  </p>
+  
+  
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/%E6%80%9D%E8%80%83/">思考</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/post/2019-06-14-rimuyuyan/">
+            <span class="next-text nav-default">日暮与烟</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:delapecci@aliyun.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://www.linkedin.com/in/0xcafe/" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="https://github.com/delapecci" class="iconfont icon-github" title="github"></a>
+  <a href="https://blog.tl88.site/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    
+      2004 - 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">ChrisL</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/even.min.js?v=3.1.1"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

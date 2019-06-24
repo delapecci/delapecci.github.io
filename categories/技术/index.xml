@@ -6,22 +6,25 @@
     <description>Recent content in 技术 on 咖啡色的硬度</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 24 Apr 2018 12:36:09 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jun 2019 20:50:00 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.tl88.site/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Node.js构造真正的全局单例</title>
-      <link>https://blog.tl88.site/post/js_true_singleton/</link>
-      <pubDate>Tue, 24 Apr 2018 12:36:09 +0800</pubDate>
+      <title>捧场AWS的体验与思考</title>
+      <link>https://blog.tl88.site/post/2019-06-20-aws-summit-2019/</link>
+      <pubDate>Thu, 20 Jun 2019 20:50:00 +0800</pubDate>
       
-      <guid>https://blog.tl88.site/post/js_true_singleton/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;翻译 &lt;a href=&#34;https://derickbailey.com/2016/03/09/creating-a-true-singleton-in-node-js-with-es6-symbols/&#34;&gt;Creating A True Singleton In Node.js, With ES6 Symbols&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+      <guid>https://blog.tl88.site/post/2019-06-20-aws-summit-2019/</guid>
+      <description>&lt;figure&gt;
+    &lt;img src=&#34;https://blog.tl88.site/awssummit2019.jpg&#34; height=&#34;100&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;AWS SUMMIT 2019 上海&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;p&gt;Node.js 通常使用 module.exports 来暴露一个对象实例，并且允许其他 js 文件引用这个相同的对象实例。很多人把这个叫做 Node.js 的单例模式，但是其实这并不是真正的单例。&lt;/p&gt;</description>
+
+&lt;p&gt;6月20号，在世博中心参加了AWS Summit 2019。此行目的之一是了解AWS在图文AI相关领域的产品和应用状况，为后面的日本之行做一下调研。&lt;/p&gt;</description>
     </item>
     
   </channel>
