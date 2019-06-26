@@ -6,10 +6,24 @@
     <description>Recent content on 咖啡色的硬度</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 20 Jun 2019 20:50:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jun 2019 17:51:00 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.tl88.site/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>极客时代的十大定律</title>
+      <link>https://blog.tl88.site/post/2019-06-26-modern-ten-rules/</link>
+      <pubDate>Wed, 26 Jun 2019 17:51:00 +0800</pubDate>
+      
+      <guid>https://blog.tl88.site/post/2019-06-26-modern-ten-rules/</guid>
+      <description>&lt;figure&gt;
+    &lt;img src=&#34;https://blog.tl88.site/geekeye.png&#34; height=&#34;100&#34;/&gt; 
+&lt;/figure&gt;
+
+
+&lt;p&gt;技术发展与应用改变了时代，也在新的发展和应用中创造或丰富了很多规律，下面这十大定律（权且如此称呼它们）或许已经不仅仅只是在技术发展和应用领域里发挥作用，甚至可以作为我们这个时代需要了解、思考和实践的哲学信条。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>捧场AWS的体验与思考</title>
